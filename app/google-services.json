@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "253408141877",
+    "project_id": "learnifyyy-943d5",
+    "storage_bucket": "learnifyyy-943d5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253408141877:android:7774eaffdc11a2f6e9477c",
+        "android_client_info": {
+          "package_name": "com.learnify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdY0W71bdjoQo_qqM2p6mB-zKsn51brlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

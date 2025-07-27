@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="black">#000000</color> <!-- Black -->
+    <color name="card_background">#FFFFFF</color> <!-- Black -->
+    <color name="white">#FFFFFF</color> <!-- White -->
+    <color name="greenColor">#4CAF50</color> <!-- Green -->
+    <color name="redColor">#F44336</color> <!-- Red -->
+
+    <!-- Light Mode Background and Text Colors -->
+    <color name="background">#FFFFFF</color> <!-- Light background -->
+    <color name="textPrimary">#000000</color> <!-- Primary text color -->
+    <color name="textSecondary">#757575</color> <!-- Secondary text color -->
+
+    <!-- Focus Color (a lighter shade for light mode) -->
+    <color name="focusPressedColor">#E1E1E1</color> <!-- Lighter focus color -->
+    <!-- Other colors -->
+    <color name="textColorPrimary">#000000</color> <!-- Black text for light mode -->
+    <color name="btncolor">#DB1B1B</color>
+    <color name="cardcolor">#EFC2C2</color>
+
+    <!--menu Color -->
+    <color name="green">#9DD69D</color> <!-- Green background for Home -->
+    <color name="red">#D6C4A2</color> <!-- Red background for Profile -->
+
+    <color name="nav_bar_background">#FFFFFF</color> <!-- White for light mode -->
+
+
+        <!-- Quiz UI Colors -->
+        <color name="quiz_title_color">#3F51B5</color>
+        <color name="progress_text_color">#757575</color>
+        <color name="progress_indicator_color">#4CAF50</color>
+        <color name="progress_track_color">#E0E0E0</color>
+        <color name="card1_background">#FFFFFF</color>
+        <color name="question_text_color">#212121</color>
+        <color name="option_stroke_color">#E0E0E0</color>
+        <color name="option_selected_color">#E8F5E9</color>
+        <color name="submit_button_color">#4CAF50</color>
+        <color name="timer_color">#F44336</color>
+        <color name="background_start">#E8F5E9</color>
+        <color name="background_end">#F1F8E9</color>
+    <color name="cardwhiteblack">#000000</color>
+
+    <color name="colorPrimary">#343F90</color>
+    <color name="backletter">#ffffff</color>
+
+
+        <!-- Educational color scheme -->
+        <color name="edu_primary">#1565C0</color>
+        <color name="edu_text_primary">#263238</color>
+        <color name="edu_text_secondary">#546E7A</color>
+        <color name="edu_divider">#CFD8DC</color>
+        <color name="edu_divider_light">#ECEFF1</color>
+    <color name="card_background_transparent">#CCFFFFFF</color>
+
+    <color name="background_color">#FAFAFA</color>
+    <color name="nav_bar_stroke">#F0F0F0</color>
+    <color name="nav_bar_start">#FFFFFF</color>
+    <color name="nav_bar_end">#F9F9F9</color>
+    <color name="badge_color">#FF6B6B</color>
+    <color name="selector_item_color">#FF6B6B</color>
+
+
+
+
+
+
+
+</resources>

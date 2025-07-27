@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ace Editor in Android</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+        #editor {
+            height: 100%;
+            width: 100%;
+            font-size: 14px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.31.1/ace.js"></script>
+</head>
+<body>
+    <div id="editor">print("Hello from Ace!")</div>
+
+    <script>
+        const editor = ace.edit("editor");
+        editor.setTheme("ace/theme/monokai");
+        editor.session.setMode("ace/mode/python");
+
+        function getCode() {
+            return editor.getValue();
+        }
+
+        function setCode(code) {
+            editor.setValue(code, 1);
+        }
+
+        function setEditorLanguage(lang) {
+            let aceLang = "text";
+            if (lang === "python") aceLang = "python";
+            else if (lang === "java") aceLang = "java";
+            else if (lang === "cpp") aceLang = "c_cpp";
+            else if (lang === "javascript") aceLang = "javascript";
+            editor.session.setMode("ace/mode/" + aceLang);
+        }
+
+        // Bridge
+        window.getEditorCode = getCode;
+        window.setEditorCode = setCode;
+        window.setEditorLanguage = setEditorLanguage;
+    </script>
+</body>
+</html>

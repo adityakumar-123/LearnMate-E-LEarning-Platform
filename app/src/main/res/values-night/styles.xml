@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme for Dark Mode -->
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/greenColor</item>
+        <item name="colorPrimaryVariant">@color/greenColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/redColor</item>
+        <item name="colorSecondaryVariant">@color/redColor</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background and Surface Colors for Night Mode -->
+        <item name="android:windowBackground">@color/background</item> <!-- Dark background -->
+        <item name="colorSurface">@color/black</item> <!-- Dark surface -->
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/textPrimary</item> <!-- Light text -->
+        <item name="android:textColorSecondary">@color/textSecondary</item> <!-- Lighter grey text for secondary elements -->
+
+        <!-- Focus and Highlight Colors -->
+        <item name="colorControlHighlight">@color/focusPressedColor</item> <!-- Focus color with darker tone -->
+    </style>
+
+</resources>

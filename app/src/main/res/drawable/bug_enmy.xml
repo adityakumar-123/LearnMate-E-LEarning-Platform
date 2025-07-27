@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/bug_enemy.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Bug Body -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M120,80 C90,80 70,100 70,130 C70,170 90,190 120,190 C150,190 170,170 170,130 C170,100 150,80 120,80 Z" />
+
+    <!-- Bug Eyes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,110 C90,110 85,120 85,130 C85,140 90,150 100,150 C110,150 115,140 115,130 C115,120 110,110 100,110 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,110 C130,110 125,120 125,130 C125,140 130,150 140,150 C150,150 155,140 155,130 C155,120 150,110 140,110 Z" />
+
+    <!-- Bug Pupils -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M100,130 C97,130 95,127.5 95,125 C95,122.5 97,120 100,120 C103,120 105,122.5 105,125 C105,127.5 103,130 100,130 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M140,130 C137,130 135,127.5 135,125 C135,122.5 137,120 140,120 C143,120 145,122.5 145,125 C145,127.5 143,130 140,130 Z" />
+
+    <!-- Bug Antenna -->
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M100,90 C90,70 85,50 90,40" />
+
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M140,90 C150,70 155,50 150,40" />
+
+    <!-- Bug Legs -->
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M80,110 C60,100 40,110 30,100" />
+
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M80,130 C60,130 40,140 30,130" />
+
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M80,150 C60,160 40,160 30,170" />
+
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M160,110 C180,100 200,110 210,100" />
+
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M160,130 C180,130 200,140 210,130" />
+
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M160,150 C180,160 200,160 210,170" />
+
+    <!-- Code Error -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M110,170 L130,170 L130,175 L110,175 Z" />
+</vector>

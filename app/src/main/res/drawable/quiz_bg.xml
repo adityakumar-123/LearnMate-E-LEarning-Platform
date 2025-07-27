@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base gradient background with black and purple colors -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#0F0F1A"
+                android:centerColor="#1A102C"
+                android:endColor="#2A1B3D"
+                android:centerX="0.5"
+                android:centerY="0.5" />
+        </shape>
+    </item>
+
+    <!-- Subtle purple glow overlay with transparency -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="900dp"
+                android:startColor="#159C27B0"
+                android:endColor="#00000000"
+                android:centerX="0.5"
+                android:centerY="0.2" />
+        </shape>
+    </item>
+
+    <!-- Light accent at the top for dimension -->
+    <item android:top="-450dp" android:left="-250dp" android:right="-250dp">
+        <shape android:shape="oval">
+            <solid android:color="#0AD8B4FE" />
+        </shape>
+    </item>
+
+    <!-- Bottom decorative element - purple accent -->
+    <item android:bottom="-300dp" android:right="-300dp">
+        <rotate android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <solid android:color="#0A8B5CF6" />
+                <size android:width="200dp" android:height="80dp" />
+                <corners android:radius="40dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- Left decorative element - deeper purple accent -->
+    <item android:top="350dp" android:left="-150dp">
+        <rotate android:fromDegrees="-30">
+            <shape android:shape="rectangle">
+                <solid android:color="#0A7E22CE" />
+                <size android:width="180dp" android:height="60dp" />
+                <corners android:radius="30dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- Additional subtle purple accent in top right -->
+    <item android:top="100dp" android:right="-200dp">
+        <rotate android:fromDegrees="15">
+            <shape android:shape="rectangle">
+                <solid android:color="#0AA855F7" />
+                <size android:width="150dp" android:height="50dp" />
+                <corners android:radius="25dp" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

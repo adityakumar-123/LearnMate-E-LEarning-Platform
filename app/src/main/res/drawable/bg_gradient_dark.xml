@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#0F0F1A"
+                android:centerColor="#1A102C"
+                android:endColor="#2A1B3D"
+                android:centerX="0.5"
+                android:centerY="0.5" />
+        </shape>
+    </item>
+
+    <!-- Single subtle purple glow overlay -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="900dp"
+                android:startColor="#159C27B0"
+                android:endColor="#00000000"
+                android:centerX="0.5"
+                android:centerY="0.2" />
+        </shape>
+    </item>
+
+</layer-list>

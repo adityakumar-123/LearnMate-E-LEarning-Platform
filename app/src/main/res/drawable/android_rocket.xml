@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/android_rocket.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Rocket Body -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M120,40 C80,40 80,120 80,200 L160,200 C160,120 160,40 120,40 Z" />
+
+    <!-- Rocket Window -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,100 C108,100 100,108 100,120 C100,132 108,140 120,140 C132,140 140,132 140,120 C140,108 132,100 120,100 Z" />
+
+    <!-- Rocket Top -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M120,40 C100,40 90,20 120,10 C150,20 140,40 120,40 Z" />
+
+    <!-- Left Fin -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M80,160 L60,200 L80,200 Z" />
+
+    <!-- Right Fin -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M160,160 L180,200 L160,200 Z" />
+
+    <!-- Flames -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M100,200 C100,220 95,230 110,240 C120,220 120,200 120,200 L100,200 Z" />
+
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M120,200 C120,220 125,230 140,240 C130,220 130,200 130,200 L120,200 Z" />
+
+    <!-- Android Eyes -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M110,120 C113,120 115,117 115,114 C115,111 113,108 110,108 C107,108 105,111 105,114 C105,117 107,120 110,120 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M130,120 C133,120 135,117 135,114 C135,111 133,108 130,108 C127,108 125,111 125,114 C125,117 127,120 130,120 Z" />
+</vector>

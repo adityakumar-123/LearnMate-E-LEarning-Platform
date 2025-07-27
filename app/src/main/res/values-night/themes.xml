@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme for Dark Mode -->
+    <style name="Theme.App.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/greenColor</item>
+        <item name="colorPrimaryVariant">@color/greenColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/redColor</item>
+        <item name="colorSecondaryVariant">@color/redColor</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background and Surface Colors -->
+        <item name="android:windowBackground">@color/background</item> <!-- Your dark background color -->
+        <item name="colorSurface">@color/black</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+        <!-- Highlight / Focus -->
+        <item name="colorControlHighlight">@color/focusPressedColor</item>
+
+        <!-- Transparent status/navigation bars -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <!-- For overlapping content -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+</resources>

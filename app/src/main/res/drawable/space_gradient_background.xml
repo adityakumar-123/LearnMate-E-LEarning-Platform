@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#1A237E"
+        android:centerColor="#0D1137"
+        android:endColor="#000000"
+        android:angle="270"
+        android:type="linear" />
+
+    <!-- Add some stars as small dots -->
+    <item>
+        <bitmap
+            android:src="@drawable/stars_pattern"
+            android:tileMode="repeat"
+            android:gravity="center" />
+    </item>
+</shape>

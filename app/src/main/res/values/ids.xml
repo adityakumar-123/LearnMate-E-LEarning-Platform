@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="profile_card" type="id" />
+    <item name="cartContainer" type="id" />
+    <item name="notificationContainer" type="id" />
+    <item name="emptyRecentCoursesText" type="id" />
+    <item name="recentCoursesRecyclerView" type="id" />
+    <item name="viewAllPopular" type="id" />
+    <item name="indicatorsContainer" type="id" />
+    <item name="coursesIcon" type="id" />
+    <item name="viewAllText" type="id" />
+</resources>
