@@ -472,18 +472,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 👨‍💻 **Meet the Creator**
 
-**Made with ❤️ and lots of ☕ by [Aryant Kumar](https://github.com/AryantKumar)**
+**Made with ❤️ and lots of ☕ by [Aditya Kumar](https://github.com/adityakumar-123)**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AryantKumar)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aryant-kumar)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adityakumar-123)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-ak9887/)
 
----
-
-### ⭐ **If you found this project helpful, please give it a star!** ⭐
-
-![Star History Chart](https://api.star-history.com/svg?repos=AryantKumar/Learnify-User-App&type=Date)
-
----
 
 <sub>🚀 Ready to start your learning journey? Download Learnify now!</sub>
 
